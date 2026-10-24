@@ -1,0 +1,35 @@
+# Week 1: JavaScript Basics — Learning Notes
+
+In Week 1, I learned the basics of JavaScript and practiced 10 exercises.
+
+1. **Variables and Addition:** I learned how to store values in variables and add two numbers.
+
+2. **Even and Odd Numbers:** I learned how to use if-else conditions and check whether a number is even or odd.
+
+3. **Loops:** I learned how to use a for loop to print numbers from 1 to 10.
+
+4. **Arrays:** I learned how to store multiple numbers in an array and calculate their total.
+
+5. **Filter Method:** I learned how to use the filter() method to find even numbers in an array.
+
+6. **Objects:** I learned how to store information in objects and access values using their keys.
+
+7. **Functions:** I learned how to create functions, pass values to them, and return results.
+
+8. **Largest Number:** I learned how to use Math.max() to find the largest number among three numbers.
+
+9. **DOM Manipulation:** I learned how to select an HTML element and change its text using JavaScript.
+
+10. **Button Click Events:** I learned how to use addEventListener() to perform an action when a button is clicked.
+
+## What I Learned
+
+I learned how JavaScript works with variables, conditions, loops, arrays, objects, and functions. I also learned how to change webpage content and handle button clicks using JavaScript.
+
+I practiced writing code, saving files, running programs in the browser, and checking the output in the browser console.
+
+## Files Prepared
+
+- index.html
+- script.js
+- learning-notes.txt
