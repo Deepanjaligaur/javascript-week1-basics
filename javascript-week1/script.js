@@ -1,4 +1,3 @@
-
 console.log("===== Exercise 1: Addition =====");
 
 const number1 = 10;
@@ -81,21 +80,27 @@ console.log("Largest number:", findLargest(12, 45, 30));
 
 console.log("===== Exercise 9: DOM Text Change =====");
 
-const heading = document.getElementById("heading");
+// document exists only in a browser. This guard prevents ReferenceError
+// when the script is run in Node.js or another non-browser environment.
+if (typeof document !== "undefined") {
+    const heading = document.getElementById("heading");
 
-if (heading) {
-    heading.textContent = "JavaScript is working!";
+    if (heading) {
+        heading.textContent = "JavaScript is working!";
+    }
+
+    console.log("===== Exercise 10: Button Click =====");
+
+    const message = document.getElementById("message");
+    const button = document.getElementById("changeButton");
+
+    if (message && button) {
+        button.addEventListener("click", function () {
+            message.textContent = "Button clicked successfully!";
+        });
+    }
+} else {
+    console.log("DOM exercises require a browser. Open index.html to test Exercises 9 and 10.");
 }
 
-
-console.log("===== Exercise 10: Button Click =====");
-
-const message = document.getElementById("message");
-const button = document.getElementById("changeButton");
-
-if (message && button) {
-    button.addEventListener("click", function () {
-        message.textContent = "Button clicked successfully!";
-    });
-}
 
